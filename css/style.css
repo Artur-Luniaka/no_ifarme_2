@@ -1277,3 +1277,26 @@ section {
     padding: 0.7em 0;
   }
 }
+
+/* Специальные стили для iOS */
+@supports (padding: max(0px)) {
+  .cookie-bar {
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    left: max(50%, env(safe-area-inset-left));
+    right: max(50%, env(safe-area-inset-right));
+    transform: translateX(-50%);
+  }
+}
+
+/* Дополнительные стили для iPhone */
+@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+  .cookie-bar {
+    position: fixed;
+    z-index: 9999;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100vw - 2rem);
+    max-width: 500px;
+  }
+}
