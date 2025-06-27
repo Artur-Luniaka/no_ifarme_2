@@ -260,7 +260,7 @@ section {
   align-items: stretch;
   justify-content: center;
   overflow: hidden;
-  background: #222;
+  background: rgb(20, 20, 30);
 }
 
 .hero-slider {
