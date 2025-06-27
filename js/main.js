@@ -496,14 +496,48 @@ window.TennisDash = {
 function setupHeroSlider() {
   const slider = document.getElementById("hero-slider");
   if (!slider) return;
-  let state = 1;
+
+  // Создаем два изображения
+  const img1 = document.createElement("img");
+  const img2 = document.createElement("img");
+
+  img1.src = "public/hero1.jpg";
+  img2.src = "public/hero2.jpg";
+
+  // Стили для изображений
+  const imgStyles = {
+    position: "absolute",
+    top: "0",
+    left: "0",
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+    objectPosition: "center",
+    transition: "opacity 1s ease",
+    zIndex: "1",
+  };
+
+  Object.assign(img1.style, imgStyles);
+  Object.assign(img2.style, imgStyles);
+
+  // Добавляем изображения в слайдер
+  slider.appendChild(img1);
+  slider.appendChild(img2);
+
+  // Начинаем с первого изображения
+  img1.style.opacity = "1";
+  img2.style.opacity = "0";
+
+  // Переключение каждые 4 секунды
   setInterval(() => {
-    state = state === 1 ? 2 : 1;
-    slider.classList.toggle("bg1", state === 1);
-    slider.classList.toggle("bg2", state === 2);
+    if (img1.style.opacity === "1") {
+      img1.style.opacity = "0";
+      img2.style.opacity = "1";
+    } else {
+      img1.style.opacity = "1";
+      img2.style.opacity = "0";
+    }
   }, 4000);
-  // Инициализация
-  slider.classList.add("bg1");
 }
 
 // Cookie bar logic (главная страница)

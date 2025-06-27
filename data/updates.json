@@ -4,7 +4,7 @@
       "date": "2024-06-01",
       "title": "Arcade Mode Launched!",
       "content": "Dive into the brand new Arcade Mode! Face endless waves of tennis ball machines, collect powerups, and climb the leaderboard. Can you set the highest score?",
-      "image": "public/hero1.jpg",
+      "image": "public/update-1.jpg",
       "imagePosition": "left",
       "tags": ["update", "arcade", "gameplay"]
     },
@@ -12,7 +12,7 @@
       "date": "2024-05-20",
       "title": "New Powerups Arrived!",
       "content": "Unleash the power of the new Neon Dash and Time Freeze powerups. Outsmart your opponents and master the court with these electrifying additions!",
-      "image": "public/hero2.jpg",
+      "image": "public/update-2.jpg",
       "imagePosition": "right",
       "tags": ["powerup", "features"]
     },
@@ -20,7 +20,7 @@
       "date": "2024-05-10",
       "title": "Tennis Dash Tournament Announced!",
       "content": "Get ready for the first official Tennis Dash Tournament! Compete with players worldwide, win exclusive gear, and earn your place in the Hall of Fame.",
-      "image": "public/hero1.jpg",
+      "image": "public/update-3.jpg",
       "imagePosition": "left",
       "tags": ["tournament", "event"]
     },
@@ -28,7 +28,7 @@
       "date": "2024-04-28",
       "title": "Major Visual Overhaul",
       "content": "Experience Tennis Dash like never before with our new neon-inspired visuals, smoother animations, and enhanced effects for a true arcade feel!",
-      "image": "public/hero2.jpg",
+      "image": "public/update-4.jpg",
       "imagePosition": "right",
       "tags": ["visuals", "update"]
     }

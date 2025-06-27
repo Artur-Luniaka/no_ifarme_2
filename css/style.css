@@ -270,31 +270,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.hero-slider::before,
-.hero-slider::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0;
-  transition: opacity 1s;
-  z-index: 1;
-}
-
-.hero-slider.bg1::before {
-  background-image: url("/public/hero1.jpg");
-  opacity: 1;
-}
-.hero-slider.bg2::after {
-  background-image: url("/public/hero2.jpg");
-  opacity: 1;
+  overflow: hidden;
 }
 
 .hero-gradient {
