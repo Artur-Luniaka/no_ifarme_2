@@ -1,0 +1,34 @@
+{
+  "features": [
+    {
+      "icon": "🏃‍♂️",
+      "title": "Lightning Speed",
+      "description": "Dash across the court with ultra-fast reflexes and dynamic movement."
+    },
+    {
+      "icon": "🎾",
+      "title": "Arcade Controls",
+      "description": "Intuitive swipe and tap controls for instant tennis action."
+    },
+    {
+      "icon": "🌀",
+      "title": "Dodge & Spin",
+      "description": "Evade flying tennis balls and spin past obstacles with style."
+    },
+    {
+      "icon": "💥",
+      "title": "Power Shots",
+      "description": "Unleash powerful shots to break through tough challenges."
+    },
+    {
+      "icon": "🔧",
+      "title": "Upgrades",
+      "description": "Boost your speed, agility, and defense with in-game upgrades."
+    },
+    {
+      "icon": "🏆",
+      "title": "Competitive Spirit",
+      "description": "Climb the leaderboards and prove your skills in arcade tournaments."
+    }
+  ]
+}

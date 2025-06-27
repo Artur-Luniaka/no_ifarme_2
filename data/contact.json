@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "icon": "📧",
+      "title": "Email",
+      "info": "info@PlayGlidePath.com"
+    },
+    {
+      "icon": "📞",
+      "title": "Phone",
+      "info": "+61 2 8831 4871"
+    },
+    {
+      "icon": "📍",
+      "title": "Location",
+      "info": "120 Collins Street, Melbourne VIC 3000, Australia"
+    }
+  ]
+}

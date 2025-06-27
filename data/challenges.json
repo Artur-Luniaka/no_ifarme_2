@@ -1,0 +1,24 @@
+{
+  "challenges": [
+    {
+      "title": "Ball Barrage",
+      "description": "Dodge a rapid-fire stream of tennis balls from all directions.",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Speed Boost Zones",
+      "description": "Hit the glowing zones to gain a burst of speed and outrun obstacles.",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Spinning Machines",
+      "description": "Navigate through unpredictable spinning ball machines.",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Net Traps",
+      "description": "Jump over or slide under tricky nets that appear suddenly.",
+      "difficulty": "Medium"
+    }
+  ]
+}

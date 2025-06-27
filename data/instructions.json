@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "title": "Start the Game",
+      "description": "Tap 'Play Now' to begin your tennis dash adventure."
+    },
+    {
+      "title": "Move & Dodge",
+      "description": "Swipe left or right to move your player and dodge incoming balls."
+    },
+    {
+      "title": "Collect Powerups",
+      "description": "Grab powerups on the court to boost your speed and defense."
+    },
+    {
+      "title": "Avoid Obstacles",
+      "description": "Watch out for tricky obstacles and spinning tennis machines."
+    },
+    {
+      "title": "Score Points",
+      "description": "Hit targets and complete challenges to earn high scores."
+    },
+    {
+      "title": "Compete & Improve",
+      "description": "Challenge friends, climb the leaderboard, and upgrade your gear."
+    }
+  ]
+}

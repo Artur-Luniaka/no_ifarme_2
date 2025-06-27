@@ -1,0 +1,28 @@
+{
+  "gear": [
+    {
+      "name": "Speed Sneakers",
+      "type": "Speed",
+      "description": "Run faster and react quicker to every challenge.",
+      "stats": ["+20% Speed", "+10% Agility"]
+    },
+    {
+      "name": "Reflex Wristband",
+      "type": "Reaction",
+      "description": "Boost your reaction time for those split-second dodges.",
+      "stats": ["+15% Reflex", "+5% Defense"]
+    },
+    {
+      "name": "Shield Vest",
+      "type": "Defense",
+      "description": "Absorb one hit without losing your streak.",
+      "stats": ["+1 Hit Protection"]
+    },
+    {
+      "name": "Ball Magnet",
+      "type": "Inventory",
+      "description": "Attracts powerups and bonuses from a greater distance.",
+      "stats": ["+30% Pickup Range"]
+    }
+  ]
+}
