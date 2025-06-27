@@ -82,15 +82,12 @@ function loadFooter() {
                         <h3 class="footer-title">Contact Info</h3>
                         <div class="footer-contact">
                             <div class="contact-item">
-                                <div class="contact-icon">📧</div>
                                 <span>info@PlayGlidePath.com</span>
                             </div>
                             <div class="contact-item">
-                                <div class="contact-icon">📞</div>
                                 <span>+61 2 8831 4871</span>
                             </div>
                             <div class="contact-item">
-                                <div class="contact-icon">📍</div>
                                 <span>120 Collins Street, Melbourne VIC 3000, Australia</span>
                             </div>
                         </div>
