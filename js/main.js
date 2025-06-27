@@ -351,10 +351,18 @@ function setupEventListeners() {
       setTimeout(function () {
         btn.classList.remove("loading");
         btn.classList.add("subscribed");
-        btn.textContent = "Subscribed!";
+        btn.textContent = "Done";
         input.value = "";
         input.disabled = true;
         btn.disabled = true;
+
+        // Возвращаем кнопку в исходное состояние через 3 секунды
+        setTimeout(function () {
+          btn.classList.remove("subscribed");
+          btn.textContent = "Subscribe";
+          input.disabled = false;
+          btn.disabled = false;
+        }, 3000);
       }, 1200);
     });
   }
